@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Horizon Light';
+    src: url('horizon/light/GulfstreamHorizon_W_Lt.eot'); /* IE9 Compat Modes */
+    src: url('horizon/light/GulfstreamHorizon_W_Ltd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('horizon/light/GulfstreamHorizon_W_Lt.woff2') format('woff2'), /* Moderner Browsers */
+    url('horizon/light/GulfstreamHorizon_W_Lt.woff') format('woff'), /* Modern Browsers */
+    url('horizon/light/GulfstreamHorizon_Lt.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('horizon/light/GulfstreamHorizon_Lt.otf') format('opentype'); /* Most Operating Systems */
+    /* url('https://assets.gulfstream.aero/fonts/horizon/light/GulfstreamHorizon_Lt.svg#svgFontName') format('svg'); Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Horizon Regular';
+    src: url('horizon/regular/GulfstreamHorizon_W_Rg.eot');
+    src: url('horizon/regular/GulfstreamHorizon_W_Rgd41d.eot?#iefix') format('embedded-opentype'),
+    url('horizon/regular/GulfstreamHorizon_W_Rg.woff2') format('woff2'),
+    url('horizon/regular/GulfstreamHorizon_W_Rg.woff') format('woff'),
+    url('horizon/regular/GulfstreamHorizon_Rg.ttf') format('truetype'),
+    url('horizon/regular/GulfstreamHorizon_Rg.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Horizon Bold';
+    src: url('horizon/bold/GulfstreamHorizon_W_Bd.eot');
+    src: url('horizon/bold/GulfstreamHorizon_W_Bdd41d.eot?#iefix') format('embedded-opentype'),
+    url('horizon/bold/GulfstreamHorizon_W_Bd.woff2') format('woff2'),
+    url('horizon/bold/GulfstreamHorizon_W_Bd.woff') format('woff'),
+    url('horizon/bold/GulfstreamHorizon_Bd.ttf') format('truetype'),
+    url('horizon/bold/GulfstreamHorizon_Bd.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Horizon Display Light';
+    src: url('horizondisplay/light/GulfstreamHorizonDisplay_W_Lt.eot');
+    src: url('horizondisplay/light/GulfstreamHorizonDisplay_W_Ltd41d.eot?#iefix') format('embedded-opentype'),
+    url('horizondisplay/light/GulfstreamHorizonDisplay_W_Lt.woff2') format('woff2'),
+    url('horizondisplay/light/GulfstreamHorizonDisplay_W_Lt.woff') format('woff'),
+    url('horizondisplay/light/GulfstreamHorizonDisplay_Lt.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Horizon Display Regular';
+    src: url('horizondisplay/regular/GulfstreamHorizonDisplay_W_Rg.eot');
+    src: url('horizondisplay/regular/GulfstreamHorizonDisplay_W_Rgd41d.eot?#iefix') format('embedded-opentype'),
+    url('horizondisplay/regular/GulfstreamHorizonDisplay_W_Rg.woff2') format('woff2'),
+    url('horizondisplay/regular/GulfstreamHorizonDisplay_W_Rg.woff') format('woff'),
+    url('horizondisplay/regular/GulfstreamHorizonDisplay_Rg.ttf') format('truetype');
+}

@@ -1,0 +1,4 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+06:36:44	0/0	---M--	301	error ('Moved%20Permanently')	text/html	date:Tue,%2016%20Jun%202020%2010:36:43%20GMT	http://www.gulfstream.com/robots.txt		(from )
+06:36:44	0/0	---M--	301	error ('Moved%20Permanently')	text/html	date:Tue,%2016%20Jun%202020%2010:36:44%20GMT	http://www.gulfstream.com/en/	/Users/jeyjeyapalan/websites/business%20site/www.gulfstream.com/en/index.html	(from )
+06:36:45	0/0	---M--	301	error ('Moved%20Permanently')	text/html	date:Tue,%2016%20Jun%202020%2010:36:45%20GMT	http://www.gulfstream.com/en/	/Users/jeyjeyapalan/websites/business%20site/www.gulfstream.com/en/index.html	(from )

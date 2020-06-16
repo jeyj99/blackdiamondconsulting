@@ -1,0 +1,33 @@
+HTTrack3.49-2 launched on Tue, 16 Jun 2020 06:37:13 at https://www.gulfstream.com/en/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://www.gulfstream.com/en/ -O "/Users/jeyjeyapalan/websites/business site" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+06:37:14	Warning: 	HTML file (626 bytes) retransferred due to lack of cache: https://www.gulfstream.com/en/
+06:42:04	Warning: 	Moved Permanently for www.gulfstream.com/robots.txt
+06:42:04	Warning: 	Redirected link is identical because of 'URL Hack' option: www.gulfstream.com/robots.txt and https://www.gulfstream.com/robots.txt
+06:42:04	Warning: 	Warning moved treated for www.gulfstream.com/robots.txt (real one is https://www.gulfstream.com/robots.txt)
+06:42:04	Warning: 	Moved Permanently for www.gulfstream.com/en/legal/privacy-notice/
+06:42:04	Warning: 	Redirected link is identical because of 'URL Hack' option: www.gulfstream.com/en/legal/privacy-notice/ and https://www.gulfstream.com/en/legal/privacy-notice/
+06:42:04	Warning: 	File has moved from www.gulfstream.com/en/legal/privacy-notice/ to https://www.gulfstream.com/en/legal/privacy-notice/
+06:42:04	Warning: 	Moved Permanently for www.gulfstream.com/en/legal/terms-of-use/
+06:42:04	Warning: 	Redirected link is identical because of 'URL Hack' option: www.gulfstream.com/en/legal/terms-of-use/ and https://www.gulfstream.com/en/legal/terms-of-use/
+06:42:04	Warning: 	File has moved from www.gulfstream.com/en/legal/terms-of-use/ to https://www.gulfstream.com/en/legal/terms-of-use/
+06:42:04	Warning: 	Moved Permanently for www.gulfstream.com/en/legal/california-supply-chains-act/
+06:42:04	Warning: 	Redirected link is identical because of 'URL Hack' option: www.gulfstream.com/en/legal/california-supply-chains-act/ and https://www.gulfstream.com/en/legal/california-supply-chains-act/
+06:42:04	Warning: 	File has moved from www.gulfstream.com/en/legal/california-supply-chains-act/ to https://www.gulfstream.com/en/legal/california-supply-chains-act/
+06:50:06	Warning: 	HTML file (668 bytes) retransferred due to lack of cache: www.gulfstream.com/en/legal/privacy-notice/
+06:50:07	Warning: 	Moved Permanently for www.gulfstream.com/en/legal/privacy-notice/
+06:50:07	Warning: 	Redirected link is identical because of 'URL Hack' option: www.gulfstream.com/en/legal/privacy-notice/ and https://www.gulfstream.com/en/legal/privacy-notice/
+06:50:07	Warning: 	File has moved from www.gulfstream.com/en/legal/privacy-notice/ to https://www.gulfstream.com/en/legal/privacy-notice/
+06:54:33	Warning: 	HTML file (73245 bytes) retransferred due to lack of cache: https://www.gulfstream.com/en/aircraft/?range_map
+06:58:46	Warning: 	HTML file (52321 bytes) retransferred due to lack of cache: https://www.gulfstream.com/en/legal/california-privacy-notice-addendum/
+07:00:14	Error: 	"Not Found" (404) at link https://www.gulfstream.com/buttons/v_g700_g_mkt_00004-m.jpg (from https://www.gulfstream.com/css/main.css)
+07:00:14	Error: 	"Not Found" (404) at link https://www.gulfstream.com/buttons/v_g700_g_mkt_00004.jpg (from https://www.gulfstream.com/css/main.css)
+07:00:14	Error: 	"Not Found" (404) at link https://www.gulfstream.com/en/POST (from https://connect.facebook.net/en_US/fbevents.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 23 minutes 1 seconds : 336 links scanned, 328 files written (62793755 bytes overall), 330 files updated [59957252 bytes received at 43415 bytes/sec], 4359789 bytes transferred using HTTP compression in 60 files, ratio 27%, 3.3 requests per connection
+(3 errors, 19 warnings, 0 messages)
