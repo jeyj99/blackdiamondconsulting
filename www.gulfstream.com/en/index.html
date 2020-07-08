@@ -116,13 +116,7 @@
             <a id="contact-link" href="contact/index.html">Contact Us</a>
         
       </span></div>
-  </header>
-  <div class="notice notice--top notice--hidden" id="flash">
-    <p class="notice__copy">
-        WE REMAIN OPEN AND READY TO SERVE YOU. To ensure the health, well-being and safety of our customers and employees, we have implemented and continue to closely monitor government-recommended measures at our facilities. For sales or service inquiries, please contact your Gulfstream representative or <a href="contact/index.html">click here</a>.
-    </p>
-    <div class="notice__close notice__close--x">
-      <a nohref="" onclick="closeNotice('flash')">
+  
         X
       </a>
     </div>
@@ -208,14 +202,32 @@
     <section id="heroVid" style="background-color: #000000;">
     
 		<div class="video">
+            <iframe src="https://player.vimeo.com/video/436328683" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+	</div>
+    <div class="video-overlay">
+        
+        <div class="controls">
+            <div class="controls__play" data-button="play button">
+                <span class="controls__ring" id="time-ring">
+                    <svg class="progress-ring" width="40" height="40">
+                        <circle class="progress-ring__circle" stroke="white" stroke-width="1.3" fill="transparent" r="16" cx="20" cy="20"/>
+                    </svg>
+                </span>
+                <img id="playButton" class="controls__button controls__button--pause" src="../buttons/video-pause.svg">
+            </div>
+            <div class="controls__mute" data-button="mute button">
+                <span class="controls__ring" id="mute-ring">
+                    <svg class="progress-ring" width="40" height="40">
+                        <circle class="progress-ring__circle" stroke="white" stroke-width="1.3" fill="transparent" r="16" cx="20" cy="20"/>
+                        <img id="muteButton" class="controls__button" src="../buttons/video-sound-off.svg">
+                    </svg>
+                </span>
+            </div>
             
-            <video controls autoplay>
-                <source src = "../blackdiamondvid.mp4" type="video/mp4">
-            </video>
-            <!-- <iframe id="vid1" src = "../blackdiamondvid.mp4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe> -->
-		</div>
-	</div>
-	</div>
+        </div>
+        
+    </div>
         
         <!-- <script src="https://fast.wistia.com/embed/medias/nl59hcyqu4.jsonp" async></script>
         <script src="../../fast.wistia.com/assets/external/E-v1.js" async></script> -->
